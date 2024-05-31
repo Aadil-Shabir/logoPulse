@@ -50,7 +50,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="flex lg:justify-end justify-center items-center" aria-hidden="true">
-                        <Image src="/rabbit3.png" width={250} height={250} alt="hero image" className="" />
+                        <Image src="/rabbit.png" width={250} height={250} alt="hero image" className="" />
                     </div>
                 </MaxWidthWrapper>
             </section>
