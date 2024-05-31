@@ -20,7 +20,7 @@ const Footer = () => {
                                         href="https://www.linkedin.com/in/ab-memon-31642b1b5/"
                                         className={buttonVariants({
                                             variant: "link",
-                                            className: "px-1 py-0 h-0 underline text-xs",
+                                            className: "px-[4px] py-0 h-0 underline text-xs",
                                         })}
                                     >
                                         AB Memon
