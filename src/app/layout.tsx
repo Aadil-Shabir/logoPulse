@@ -3,7 +3,6 @@ import { Recursive as FontSans } from "next/font/google";
 import "./globals.css";
 
 import { cn } from "@/lib/utils";
-import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 const fontSans = FontSans({
@@ -33,11 +32,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={cn("font-sans antialiased", fontSans.variable)}>
+            <body className={cn("font-sans antialiased min-h-screen", fontSans.variable)}>
                 <Navbar />
-                <main className="min-h-screen flex flex-col bg-background">
+                <main className="flex flex-col h-full bg-background">
                     <div className="flex-1 flex flex-col h-full">{children}</div>
-                    <Footer />
                 </main>
             </body>
         </html>
