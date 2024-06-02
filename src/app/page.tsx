@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Star, Check, Rabbit } from "lucide-react";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import LogoExamples from "@/components/LogoExamples";
+import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
@@ -249,6 +250,7 @@ export default function Home() {
                     </div>
                 </MaxWidthWrapper>
             </section>
+            <Footer />
         </div>
     );
 }
